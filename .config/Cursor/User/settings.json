@@ -1,0 +1,81 @@
+{
+    "editor.minimap.enabled": false,
+    "workbench.editor.enablePreview": false,
+    "editor.rename.enablePreview": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.autoClosingQuotes": "never",
+    "editor.wordWrap": "on",
+    "editor.autoClosingBrackets": "never",
+    "editor.inlineSuggest.enabled": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "meta.indexed-name.python",
+                "settings": {
+                    "foreground": "#07d100",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": "meta.function-call.generic.python",
+                "settings": {
+                    "foreground": "#ffe600",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": "meta.item-access.arguments.python",
+                "settings": {
+                    "foreground": "#ffdbac",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": "meta.function.parameters.python",
+                "settings": {
+                    "foreground": "#9aff8c",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": "meta.function-call.arguments.python",
+                "settings": {
+                    "foreground": "#ffbcff",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": "meta.attribute.python",
+                "settings": {
+                    "foreground": "#bdbcff",
+                    "fontStyle": ""
+                }
+            }
+        ]
+    },
+    "update.mode": "none",
+    "telemetry.telemetryLevel": "off",
+    "github.copilot.enable": {
+        "*": false
+    },
+    "yaml.schemas": {
+        "https://raw.githubusercontent.com/compose-spec/compose-spec/master/schema/compose-spec.json": "docker-compose*.yml"
+    },
+    "workbench.startupEditor": "none",
+    "files.restoreUndoStack": false,
+    "rust-analyzer.inlayHints.typeHints.enable": false,
+    "rust-analyzer.inlayHints.parameterHints.enable": false,
+    "files.associations": {
+        "*.toml": "toml",
+        "*.json": "json"
+    },
+    "editor.find.seedSearchStringFromSelection": "never",
+    "cursor.cpp.disabledLanguages": [
+        "plaintext",
+        "markdown",
+        "scminput"
+    ],
+    "workbench.colorTheme": "Default Dark Modern",
+    "window.newWindowProfile": "Default"
+}
